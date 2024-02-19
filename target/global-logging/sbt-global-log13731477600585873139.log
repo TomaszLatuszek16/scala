@@ -1,0 +1,98 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.8 (Azul Systems, Inc. Java 21.0.2)
+[debug] Load.defaultLoad until apply took 144.6892ms
+[debug]           Load.loadUnit: plugins took 131.9009ms
+[debug]           Load.loadUnit: defsScala took 0.4539ms
+[debug] [Loading] Scanning directory C:\Users\48530\IdeaProjects\spark-scala-project\project
+[debug]             Load.loadUnit: mkEval took 9.1122ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\48530\IdeaProjects\spark-scala-project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.9027 ms
+[info] loading settings for project spark-scala-project-build from plugins.sbt ...
+[debug]               Load.resolveProject(spark-scala-project-build) took 45.3971ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark-scala-project-build, base: C:\Users\48530\IdeaProjects\spark-scala-project\project, plugins: List(<none>))) took 68.398ms
+[debug] [Loading] Done in C:\Users\48530\IdeaProjects\spark-scala-project\project, returning: (spark-scala-project-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3003.5137ms
+[debug]           Load.loadUnit: cleanEvalClasses took 11.146ms
+[debug]         Load.loadUnit(file:/C:/Users/48530/IdeaProjects/spark-scala-project/project/, ...) took 3156.1481ms
+[debug]       Load.apply: load took 3351.1774ms
+[debug]       Load.apply: resolveProjects took 5.425ms
+[debug]       Load.apply: finalTransforms took 81.3282ms
+[debug]       Load.apply: config.delegates took 8.2351ms
+[debug]       Load.apply: Def.make(settings)... took 513.5328ms
+[debug]       Load.apply: structureIndex took 125.4689ms
+[debug]       Load.apply: mkStreams took 1.6774ms
+[info] loading project definition from C:\Users\48530\IdeaProjects\spark-scala-project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 6760.3068ms
+[debug]     Load.loadUnit: defsScala took 0.0052ms
+[debug] [Loading] Scanning directory C:\Users\48530\IdeaProjects\spark-scala-project
+[debug]       Load.loadUnit: mkEval took 0.4285ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtide.ConfigPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.4439 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.6087ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\48530\IdeaProjects\spark-scala-project, plugins: List(<none>))) took 8.4286ms
+[debug] [Loading] Done in C:\Users\48530\IdeaProjects\spark-scala-project, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2799.5186ms
+[debug]     Load.loadUnit: cleanEvalClasses took 27.7984ms
+[debug]   Load.loadUnit(file:/C:/Users/48530/IdeaProjects/spark-scala-project/, ...) took 9590.229ms
+[debug] Load.apply: load took 9625.7716ms
+[debug] Load.apply: resolveProjects took 0.4191ms
+[debug] Load.apply: finalTransforms took 37.5404ms
+[debug] Load.apply: config.delegates took 0.4178ms
+[debug] Load.apply: Def.make(settings)... took 110.1663ms
+[debug] Load.apply: structureIndex took 44.8656ms
+[debug] Load.apply: mkStreams took 0.0032ms
+[info] set current project to spark-scala-project (in build file:/C:/Users/48530/IdeaProjects/spark-scala-project/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * root / idePackagePrefix
+[warn]   +- C:\Users\48530\IdeaProjects\spark-scala-project\build.sbt:8
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-4974f0d556a93bc2a773
+[debug] Writing bsp connection file
+[info] started sbt server
