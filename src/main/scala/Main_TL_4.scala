@@ -17,9 +17,21 @@ object Main_TL_4 {
 
     val rddFromFile = spark.sparkContext.textFile("data_tom/AAPL.csv")
 
-    rddFromFile.foreach(f=>{
-      println(f)
-    })
+//    rddFromFile.foreach(f=>{
+//      println(f)
+//    })
+
+    // Show Contents From Spark (Scala)
+    val dept = List(
+      ("Finance",10),
+      ("Marketing",20),
+      ("Sales",30),
+      ("IT",40))
+
+    val rdd=spark.sparkContext.parallelize(dept)
+
+    val dataColl=rdd.collect()
+    dataColl.foreach(println)
 
 
 // --------------------------------------------------------------------------------------------------------
